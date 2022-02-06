@@ -126,7 +126,7 @@ Metrics used for the models are going to be RMSE, MSE and R-SQUARED.
 creating a function to search for the best parameters, we found that the best values were 5,0,5, and an Akaike Information Critera (AIC) of 1214.67, when filling the model with these parameters, we found that the values of MSE and RMSE for training they are good, but on the other hand when we analyze the test values we see that the values are much larger.
 Analyzing the graph we see that when we predict the test values, the model after a while cannot predict the trend and starts to predict the average price.
 
-![](./assets/arima.png)
+![](./assets/arima_model.png)
 
 | arima | train | test  |
 |-------|-------|-------|
